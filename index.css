@@ -1,0 +1,67 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: url(https://p4ratchet.files.wordpress.com/2016/10/ace-attorney-courtroom1.jpg?crop=1&h=577&w=1024);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    position: fixed;
+    flex-direction: row;
+    width: 100%;
+    background-color: #161a26;
+    height: 50px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.home_container {
+    width: 80%;
+    margin: auto;
+}
+
+.home_top-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 2%;
+    background-color: blue;
+}
+
+.shit {
+    flex-grow: 2;
+    background-color: green;
+}
+
+#tnc-logo {}
+
+.home_description {
+    font-size: 20px;
+}
+
+.item {
+    width: 20%;
+    flex-grow: 1;
+    margin: 5%;
+    padding: 2%;
+    background-color: pink;
+}
+
+.vert-group {}
+
+main {
+    padding-top: 50px;
+}
