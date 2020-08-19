@@ -2,7 +2,7 @@ html, body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background: url(https://p4ratchet.files.wordpress.com/2016/10/ace-attorney-courtroom1.jpg?crop=1&h=577&w=1024);
+    background: url(background.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -136,6 +136,7 @@ img {
     width: 10%;
     height: auto;
 }
+
 .flip-card-front, .flip-card-back {
     background: linear-gradient(315deg, #577bad, #353956);
     background-size: 400% 400%;
@@ -146,17 +147,37 @@ img {
 }
 
 @-webkit-keyframes moving-background {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+    0% {
+        background-position: 0% 51%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 51%
+    }
 }
+
 @-moz-keyframes moving-background {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+    0% {
+        background-position: 0% 51%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 51%
+    }
 }
+
 @keyframes moving-background {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
+    0% {
+        background-position: 0% 51%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 51%
+    }
 }

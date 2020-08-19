@@ -2,7 +2,7 @@ html, body {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    background: url(https://p4ratchet.files.wordpress.com/2016/10/ace-attorney-courtroom1.jpg?crop=1&h=577&w=1024);
+    background: url(background.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -38,66 +38,74 @@ nav {
     font-size: 16px;
     color: whitesmoke;
 }
+
 main {
     padding-top: 50px;
     width: 85%;
     margin: auto;
 }
+
 .fp {
     padding: 2%;
-display: flex;
-flex-direction: column;
-grid-area: fp;
-background-color: pink;
-align-items: center;
-text-align: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: fp;
+    background-color: pink;
+    align-items: center;
+    text-align: center;
 }
+
 .update {
     padding: 2%;
-grid-area: update;
-display: flex;
-flex-direction: column;
-background-color: red;
-justify-content: space-around;
-align-items : center;
+    grid-area: update;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: space-around;
+    align-items: center;
 }
+
 #chapter-image {
     width: 100%;
 }
+
 .update-video {
     margin: 2% 0%;
     width: 100%;
     grid-area: uv;
 }
+
 .old {
     padding: 2%;
     margin: 2%;
     grid-area: old;
     background-color: cyan;
 }
+
 #download-icon {
     width: 20%;
 }
+
 .content_container {
     margin: 2%;
     display: grid;
     grid-template-columns: 1fr .2fr 1fr;
     grid-template-rows: 25% 25% 25%;
-    grid-template-areas: 
-    "fp . update"
-    "uv. update"
-    "old old old";
+    grid-template-areas: "fp . update" "uv. update" "old old old";
 }
+
 a {
     width: max-content;
 }
+
 .no-margin {
     margin: 5px;
 }
+
 .button {
     text-align: center;
     margin: 2%;
-    border-radius:3px;
+    border-radius: 3px;
     background-color: blue;
     padding: 15px 32px;
 }
