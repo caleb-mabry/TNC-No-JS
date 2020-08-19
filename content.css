@@ -64,6 +64,11 @@ align-items : center;
 #chapter-image {
     width: 100%;
 }
+.update-video {
+    margin: 2% 0%;
+    width: 100%;
+    grid-area: uv;
+}
 .old {
     padding: 2%;
     margin: 2%;
@@ -80,7 +85,7 @@ align-items : center;
     grid-template-rows: 25% 25% 25%;
     grid-template-areas: 
     "fp . update"
-    ". . update"
+    "uv. update"
     "old old old";
 }
 a {
