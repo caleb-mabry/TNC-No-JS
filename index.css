@@ -3,8 +3,16 @@ html, body {
     margin: 0px;
     box-sizing: border-box;
     background: url(background.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+}
+
+.staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .container {
@@ -131,10 +139,21 @@ img {
     padding: 2%;
 }
 
+.mod-container {
+    width: 150px;
+    height: 300px;
+    margin: 2%;
+    text-align: center;
+    background-color: slateblue;
+    padding: 3%;
+}
+
 .icon {
     border-radius: 50%;
-    width: 10%;
+    width: 100%;
     height: auto;
+    background-color: whitesmoke;
+    border: 5px solid black;
 }
 
 .flip-card-front, .flip-card-back {
