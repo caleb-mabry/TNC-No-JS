@@ -28,40 +28,40 @@ nav {
     color: whitesmoke;
 }
 
-.home_container {
-    width: 80%;
-    margin: auto;
+.home_container {}
+
+main {
+    padding-top: 50px;
 }
 
-.home_top-container {
+.news {
+    grid-area: news;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    margin: 2%;
     background-color: blue;
 }
 
-.shit {
-    flex-grow: 2;
-    background-color: green;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-#tnc-logo {}
-
-.home_description {
-    font-size: 20px;
-}
-
-.item {
-    width: 20%;
-    flex-grow: 1;
-    margin: 5%;
+.event1 {
+    grid-area: event1;
     padding: 2%;
     background-color: pink;
 }
 
-.vert-group {}
+.event2 {
+    grid-area: event2;
+    padding: 2%;
+    background-color: green;
+}
 
-main {
-    padding-top: 50px;
+.home_container {
+    margin: 2%;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: 2fr .4fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "news . event1" "news . ." "news . event2";
 }
